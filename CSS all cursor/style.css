@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 100%;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-transform: capitalize;
+  background: #123358;
+}
+
+.icon {
+  font-size: 28px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.name {
+  position: absolute;
+  bottom: 5px;
+  font-size: 12px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 80%;
+}
+
+.content {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  margin: 8px;
+  border-radius: 5px;
+  background: #23395d;
+  transition: 0.5s;
+}
+
+.content:hover {
+  color: #00acf0;
+  box-shadow: rgba(0, 172, 240, 0.3) 0px 2.6px 5px,
+    rgba(0, 172, 240, 0.3) 0px 2.6px 5px;
+}
+
+.content:hover .icon {
+  text-shadow: 0 1px 0 rgba(155, 155, 155, 0.1);
+}
+
+/***********  icon style  ***********/
+.alias .icon {
+  transform: rotate(320deg);
+}
+
+.cell .icon {
+  font-size: 26px;
+  font-weight: bolder;
+}
+
+.col-resize .icon {
+  transform: rotate(90deg);
+}
+
+.copy .icon {
+  font-size: 18px;
+}
+
+.crosshair .icon {
+  font-size: 35px;
+}
+
+.grabbing .icon {
+  font-size: 18px;
+}
+
+.ne-resize .icon {
+  transform: rotate(45deg);
+}
+
+.nesw-resize .icon {
+  transform: rotate(45deg);
+}
+
+.nw-resize .icon {
+  transform: rotate(135deg);
+}
+
+.nwse-resize .icon {
+  transform: rotate(135deg);
+}
+
+.none .icon {
+  visibility: hidden;
+}
+
+.se-resize .icon {
+  transform: rotate(135deg);
+}
+
+.sw-resize .icon {
+  transform: rotate(225deg);
+}
+
+/***********  cursor style  ***********/
+.alias {
+  cursor: alias;
+}
+.all-scroll {
+  cursor: all-scroll;
+}
+.auto {
+  cursor: auto;
+}
+.cell {
+  cursor: cell;
+}
+.col-resize {
+  cursor: col-resize;
+}
+.context-menu {
+  cursor: context-menu;
+}
+.copy {
+  cursor: copy;
+}
+.crosshair {
+  cursor: crosshair;
+}
+.default {
+  cursor: default;
+}
+.e-resize {
+  cursor: e-resize;
+}
+.ew-resize {
+  cursor: ew-resize;
+}
+.grab {
+  cursor: grab;
+}
+.grabbing {
+  cursor: grabbing;
+}
+.help {
+  cursor: help;
+}
+.move {
+  cursor: move;
+}
+.n-resize {
+  cursor: n-resize;
+}
+.ne-resize {
+  cursor: ne-resize;
+}
+.nesw-resize {
+  cursor: nesw-resize;
+}
+.ns-resize {
+  cursor: ns-resize;
+}
+.nw-resize {
+  cursor: nw-resize;
+}
+.nwse-resize {
+  cursor: nwse-resize;
+}
+.no-drop {
+  cursor: no-drop;
+}
+.none {
+  cursor: none;
+}
+.not-allowed {
+  cursor: not-allowed;
+}
+.pointer {
+  cursor: pointer;
+}
+.progress {
+  cursor: progress;
+}
+.row-resize {
+  cursor: row-resize;
+}
+.s-resize {
+  cursor: s-resize;
+}
+.se-resize {
+  cursor: se-resize;
+}
+.sw-resize {
+  cursor: sw-resize;
+}
+.text {
+  cursor: text;
+}
+.url {
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=136789), auto;
+}
+.w-resize {
+  cursor: w-resize;
+}
+.wait {
+  cursor: wait;
+}
+.zoom-in {
+  cursor: zoom-in;
+}
+.zoom-out {
+  cursor: zoom-out;
+}
